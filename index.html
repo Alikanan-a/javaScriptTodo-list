@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Todo List</title>
+</head>
+<link rel="stylesheet" href="Assets/css/style.css">
+<body>
+    
+<div class="main">
+    <!-- <h2> Wish You a Good Day </h2> -->
+    <form id="form" class="form" action="">
+        <label class="task"><h1>Task of The Day  : </h1>
+        <input type="text" id="pName" name="product[]">
+        </label>
+        <label class="important"> <h2> Importantly : </h2>
+            <input type="text" id="pPrice" name="product[]">
+        </label>
+        <button type="button" class="click" onclick="myFunction()"> Add It </button>
+        <div id="p-body">
+    
+        </div>
+        <p id="demo"></p>
+    </form>
+    <div>
+    
+    </div>
+    <div class="container">
+    
+        <div class="table">
+            <div class="table-header">
+                <div class="header__item"><a id="name" class="filter__link" href="#">Task Name</a></div>
+                <div class="header__item"><a id="wins" class="filter__link filter__link--number" href="#">importantly</a></div>
+            </div>
+            <div class="table-content" id="t-body">
+    
+            </div>
+        </div>
+    </div>
+</div>
+<script src="Assets/js/app.js"></script>c
+</body>
+
+</html>
